@@ -7,4 +7,4 @@ Note: Run Jupyter-notebooks in the following order (requires data from GSE154989
 
 **_01_getLuadAdata.ipynb_** - Jupyter notebook to download data from Marjanovic*, Hofree*, and Chan* et. al., Cancer Cell 2020 (GSE154989,GSE277777). 
 
-**_02_Marjanovic.ipynb_** - Jupyter notebook creates the ../common_files/genes.joblib used to help classify tumor cells.  Produces Ext. Data Fig. 6a,b, Ext. Data Fig 13f-h, and Ext.Data Table 2.
+**_02_Marjanovic.ipynb_** - Jupyter notebook creates the ../common_files/genes.joblib used to help classify tumor cells.  Produces Ext. Data Fig. 5.
