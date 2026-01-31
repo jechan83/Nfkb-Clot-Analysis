@@ -11,8 +11,8 @@ All generated sequencing data and count matrices are available at the NCBI Gene-
 
 **_JC2438_** - Contains the Jupyter notebook to process FACS sorted LUAD tumors 18 weeks post tumor induction derived from _KP Rosa26<sup>RIK/+</sup>_ mice. Tumors were initiated with lentivirus containing either shRenilla or shNfkb1 hairpins. Mice were treated with Doxycycline for 1 week prior to harvest to induce hairpin expression.
 
-**_IGO15770_** - Contains the Jupyter notebook to process FACS sorted LUAD tumors 17 weeks post tumor induction derived from _KP Rosa26<sup>RIK/+</sup>_ mice. Tumors were initiated with lentivirus containing either shRenilla, shNfkb1,  shRela, or shRel hairpins. Mice were treated with Doxycycline for 1 week prior to harvest to induce hairpin expression.
+**_IGO15570_** - Contains the Jupyter notebook to process FACS sorted LUAD tumors 17 weeks post tumor induction derived from _KP Rosa26<sup>RIK/+</sup>_ mice. Tumors were initiated with lentivirus containing either shRenilla, shNfkb1,  shRela, or shRel hairpins. Mice were treated with Doxycycline for 1 week prior to harvest to induce hairpin expression.
 
 **_JC2499_** -  Contains the Jupyter notebook to process FACS sorted LUAD tumors 17 weeks post tumor induction derived from _KP Rosa26<sup>RIK/+</sup>_ mice. Tumors were initiated with lentivirus containing either Cre or IkbSR-Cre construct. Mice were treated with Doxycycline for 1 week prior to harvest to induce hairpin expression.
 
-**IGO15770\_JC2434\_JC2438\_\_JC2499_** - Contains the Jupyter notebook to concatenate IGO15770/JC2434/JC2438/JC2499. Run after processing the code in the individual folders above.
+**IGO15570\_JC2434\_JC2438\_\_JC2499_** - Contains the Jupyter notebook to concatenate and process IGO15770/JC2434/JC2438/JC2499. Run after processing the code in the individual folders above.
