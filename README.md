@@ -13,10 +13,16 @@ _Part1.conda.env_ - Conda package list used to analyze data from Part 1. Use "co
 
 **_Marjanovic\_et\_al\_2020_** - Contains the Jupyter notebook to process the data from Marjanovic*, Hofree*, Chan* et al., Cancer Cell 2020, previously analyzed from GSE277777. A prerequisite to classify the cell states required to generate the figures in the paper. 
 
-**_control_** - Contains the Jupyter notebooks to process _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>GGCB/+</sup>_ control tumors.  
+**_control_** - Contains the Jupyter notebooks to process _KPfrt Slc4a11<sup>MCD/+</sup> Rosa26<sup>GGCB/+</sup>_ control tumors.  
    1. **_IGO15123_** - Contains the Jupyter notebook to process FACS sorted 16 week _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>GGCB/+</sup>_ tumors ablated for 1 week via diphitheria toxin treatment. The saline control data is used here. 
    2. **_IGO15342_** - Contains the Jupyter notebook to process FACS sorted 15 week _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>GGCB/+</sup>_ tumors ablated for 1 week via diphtheria toxin treatment. The saline control data is used here. 
    3. **_IGO15123\_IGO15342\_combined_** - Contains the Jupyter notebook to concatenate IGO15123 and IGO15342. Run after processing the code in IGO15123 and IGO15342.
+
+**_NFkB_GEMM_** - Contains the Jupyter notebooks to process _KP Rosa26<sup>RIK</sup>_ tumors with knockdown of canonical NF-kB components.
+   1. **_JC2434_** - Contains the Jupyter notebook to process FACS sorted LUAD tumors 18 weeks post tumor induction derived from _KP Rosa26<sup>RIK/+</sup>_ mice. Tumors were initiated with lentivirus containing either shRenilla or shNfkb1 hairpins. Mice were treated with Doxycycline for 1 week prior to harvest to induce hairpin expression.
+   2. **_JC2438_** - Contains the Jupyter notebook to process FACS sorted LUAD tumors 18 weeks post tumor induction derived from _KP Rosa26<sup>RIK/+</sup>_ mice. Tumors were initiated with lentivirus containing either shRenilla or shNfkb1 hairpins. Mice were treated with Doxycycline for 1 week prior to harvest to induce hairpin expression.
+   3. **_IGO15770_** - Contains the Jupyter notebook to process FACS sorted LUAD tumors 17 weeks post tumor induction derived from _KP Rosa26<sup>RIK/+</sup>_ mice. Tumors were initiated with lentivirus containing either shRenilla, shNfkb1,  shRela, or shRel hairpins. Mice were treated with Doxycycline for 1 week prior to harvest to induce hairpin expression.
+   4. **_JC2499_** -  Contains the Jupyter notebook to process FACS sorted LUAD tumors 17 weeks post tumor induction derived from _KP Rosa26<sup>RIK/+</sup>_ mice. Tumors were initiated with lentivirus containing either Cre or IkbSR-Cre construct. Mice were treated with Doxycycline for 1 week prior to harvest to induce hairpin expression.
 
 ## Part 2 - Processing of previously published scRNA-seq data
 
