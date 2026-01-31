@@ -7,4 +7,4 @@ _Requirements_: SCANPY, AnnData, Scipy
 
 All generated sequencing data and count matrices are available at the NCBI Gene-Expression Omnibus under accession record GSExxxxxx. 
 
-**_JC2499_IkbSR.ipynb_** -  Contains the Jupyter notebook to process FACS sorted LUAD tumors 17 weeks post tumor induction derived from _KP Rosa26<sup>RIK/+</sup>_ mice. Tumors were initiated with lentivirus containing either Cre or IkbSR-Cre construct. Mice were treated with Doxycycline for 1 week prior to harvest to induce hairpin expression.
+**_JC2499_PGKIkbSR.ipynb_** -  Contains the Jupyter notebook to process FACS sorted LUAD tumors 17 weeks post tumor induction derived from _KP Rosa26<sup>RIK/+</sup>_ mice. Tumors were initiated with lentivirus containing either Cre or IkbSR-Cre construct. Mice were treated with Doxycycline for 1 week prior to harvest to induce hairpin expression.
