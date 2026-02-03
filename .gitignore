@@ -16,6 +16,7 @@ toupdate.txt
 *.zip
 *.swp
 *.prism
+*.rnk
 
 plastic/write/*
 plastic/data/*
