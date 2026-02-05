@@ -7,9 +7,13 @@ _Requirements_: SCANPY, AnnData, Scipy
 
 All generated sequencing data and count matrices are available at the NCBI Gene-Expression Omnibus under accession record GSExxxxxx. Data from GSE277777 is used here as well.
 
-_autochthonous.env_ - Conda package list used to analyze data from Part 1. Use "conda create --name <env> --file Part1.conda.env" to recreate the environment used to analyze the data in from this section.  Data originally run on a conda environment within a Linux 64bit system.
+_autochthonous.yml_ - Conda package list used to analyze data from Marjanovic\_et\_al\_2020, control, and NFkB_GEMM.  Use "conda create --name <env> --file autochthonous.conda.yml" to recreate the environment used to analyze the data in from this section.  Data originally run on a conda environment within a Linux 64-bit system.
 
-#![Part I Summary Image](Part1_Overview.png)
+_screen.conda.yml_ - Conda package list used to analyze the lentiviral screen. Data originally run on a conda environment within a Intel MacPro 64-bit system.
+
+_samtools.conda.yml_ - Conda package list used to analyze the degenerate barcodes.
+
+_panCancerEnv.conda.yml_ - Conda package list used to analyze the pan-cancer datasets and patient-derived xenografts. Data originally run on a conda environment within a Linux 64-bit system.
 
 **_Marjanovic\_et\_al\_2020_** - Contains the Jupyter notebook to process the data from Marjanovic*, Hofree*, Chan* et al., Cancer Cell 2020, previously analyzed from GSE277777. A prerequisite to classify the cell states required to generate the figures in the paper. 
 
