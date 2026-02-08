@@ -1,4 +1,4 @@
-# HPCS_LUAD
+# Nfkb-Clot-Analysis
 Code base for high-plasticity cell state in lung adenocarcinoma study by Krause*, Chan* et. al. 
 
 _Requirements_: SCANPY, AnnData, Scipy
