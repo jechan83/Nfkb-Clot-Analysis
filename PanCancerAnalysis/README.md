@@ -43,6 +43,7 @@ This Directory generates data for:
 | Lung          | humanLungKim              |               | 5a; ED11d,e,f            | 32385277 |
 | Lung          | humanLungBischoff         |               | 5a; ED11d,e,f            | 34663877 |
 | Lung          | humanLungDost             |               | 5a; ED11d,e,f            | 32891189 |
+| Lung          | pdxLung                   |               | 5a; ED11d,e,f            | This Study |
 | Ovarian       | humanOvarianQ             |               | 5a                       | 35196078 |
 
 
