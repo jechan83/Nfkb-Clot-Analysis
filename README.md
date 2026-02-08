@@ -13,8 +13,6 @@ _screen.conda.yml_ - Conda package list used to analyze the lentiviral screen. D
 
 _samtools.conda.yml_ - Conda package list used to analyze the degenerate barcodes.
 
-_panCancerEnv.conda.yml_ - Conda package list used to analyze the pan-cancer datasets and patient-derived xenografts. Data originally run on a conda environment within a Linux 64-bit system.
-
 **_Marjanovic\_et\_al\_2020_** - Contains the Jupyter notebook to process the data from Marjanovic*, Hofree*, Chan* et al., Cancer Cell 2020, previously analyzed from GSE277777. A prerequisite to classify the cell states required to generate the figures in the paper. 
 
 **_control_** - Contains the Jupyter notebooks to process _KPfrt Slc4a11<sup>MCD/+</sup> Rosa26<sup>GGCB/+</sup>_ control tumors.  
@@ -37,43 +35,45 @@ Each dataset was downloaded individually then quality control and analysis was d
 
 The information was aggregated and compared in the `hpcsQuant-rev.ipynb` file to generate the figures.
 
-We used the `panCancerEnv.yml` to create a conda environment to run the files below.
+We used the `panCancerEnv.conda.yml` to create a conda environment to run the files below.
 
 This Directory generates data for:
 - **Figure 5**
-- **Extended Data Figure 11
+- **Extended Data Figure 11**
 
 ### Information Table
 
 | Tissue        | ipynb File                | Gene Signature| Figure                   | PMID     |
 |---------------|---------------------------|---------------|--------------------------|----------|
 | **Mouse**     |                           |               |                          |          |
-| Colon         | mouseColon                | coreHRC       | 5              | 36352230 |
-| Skin          | mouseSkin                 | lower spike   | 5             | 38815020 |
-| Prostate      | mouseProstate             | Plasticity    | 5          | 35981096 |
-| Pancreas_T    | mousePancreas             | Basal         | 5         | 35952360 |
-| Pancreas_B    | mousePancreasB            |               | 5                | 33536616 | 
-| Breast        | mouseBreast               |               | 5                | 32840210 |
-| Lung          | makeLuadAdata             | HPCS          | 5; ED11 | 32707077 |
-| Lung          | mouseLung                 | DATP          | 5; ED11       | 32750316 |
-| Lung          | mouseLung                 | ADI           | 5; ED11                       | 32678092 |
-| Lung          | mouseLung                 | PATS          | 5; ED11                       | 32661339 |
-| Skin Injury   | regen_mouseSkin           | wound         | 5                       | 32187560 | 
+| Colon         | mouseColon                | coreHRC       | 5                        | 36352230 |
+| Skin          | mouseSkin                 | lower spike   | 5                        | 38815020 |
+| Prostate      | mouseProstate             | Plasticity    | 5                        | 35981096 |
+| Pancreas_T    | mousePancreas             | Basal         | 5                        | 35952360 |
+| Pancreas_B    | mousePancreasB            |               | 5                        | 33536616 | 
+| Breast        | mouseBreast               |               | 5                        | 32840210 |
+| Lung          | makeLuadAdata             | HPCS          | 5; ED11                  | 32707077 |
+| Lung          | mouseLung                 | DATP          | 5; ED11                  | 32750316 |
+| Lung          | mouseLung                 | ADI           | 5; ED11                  | 32678092 |
+| Lung          | mouseLung                 | PATS          | 5; ED11                  | 32661339 |
+| Skin Injury   | regen_mouseSkin           | wound         | 5                        | 32187560 | 
 |               |                           |               |                          |          |
 | **Human**     |                           |               |                          |          |
-| Colon         | humanColorectalPelka2021  |               | 5               | 34450029 |
-| Skin          | humanSkinJi2020           |               | 5              | 32579974 |
-| Prostate      | humanProstateDong2020     |               | 5              | 33328604 |
-| Pancreas      | humanPancreasSteele2020   |               | 5              | 34296197 |
-| Breast        | humanBreastPal2021        |               | 5                | 33950524 |
-| Lung          | humanLungMDA              | KAC           | 5; ED11          | 38418883 |
-| Lung          | humanLungKim              |               | 5; ED11              | 32385277 |
-| Lung          | humanLungBischoff         |               | 5; ED11              | 34663877 |
-| Lung          | humanLungDost             |               | 5; ED11             | 32891189 |
-| HeadandNeck_C | humanHead-and-Neck        |               | 5              | 34921143 |
-| HeadandNeck_K | humanHead-and-Neck_K      |               | 5              | 32686767 |
-| Ovarian       | humanOvarianQ             |               | 5             | 35196078 |
+| Colon         | humanColorectalPelka2021  |               | 5                        | 34450029 |
+| Skin          | humanSkinJi2020           |               | 5                        | 32579974 |
+| Prostate      | humanProstateDong2020     |               | 5                        | 33328604 |
+| Pancreas      | humanPancreasSteele2020   |               | 5                        | 34296197 |
+| Breast        | humanBreastPal2021        |               | 5                        | 33950524 |
+| Lung          | humanLungMDA              | KAC           | 5; ED11                  | 38418883 |
+| Lung          | humanLungKim              |               | 5; ED11                  | 32385277 |
+| Lung          | humanLungBischoff         |               | 5; ED11                  | 34663877 |
+| Lung          | humanLungDost             |               | 5; ED11                  | 32891189 |
+| HeadandNeck_C | humanHead-and-Neck        |               | 5                        | 34921143 |
+| HeadandNeck_K | humanHead-and-Neck_K      |               | 5                        | 32686767 |
+| Ovarian       | humanOvarianQ             |               | 5                        | 35196078 |
 | Hematologic(MM) | humanHematologic_L      |               |                          | 33963182 |
 | Hematologic(ALL)| humanHematologic        |               |                          | 32415257 |
-| Colon Injury  | regen_humanIntestine      | revSSR, revSC | 5                       | 37162959 | 
+| Colon Injury  | regen_humanIntestine      | revSSR, revSC | 5                        | 37162959 | 
+| **Pan Cancer** |                          |               |                          |          |
+| Yanai         |                           | Stress        | ED18a                    | 35931863 |
 
