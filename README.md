@@ -63,17 +63,12 @@ This Directory generates data for:
 | Skin          | humanSkinJi2020           |               | 5                        | 32579974 |
 | Prostate      | humanProstateDong2020     |               | 5                        | 33328604 |
 | Pancreas      | humanPancreasSteele2020   |               | 5                        | 34296197 |
-| Breast        | humanBreastPal2021        |               | 5                        | 33950524 |
 | Lung          | humanLungMDA              | KAC           | 5; ED11                  | 38418883 |
 | Lung          | humanLungKim              |               | 5; ED11                  | 32385277 |
 | Lung          | humanLungBischoff         |               | 5; ED11                  | 34663877 |
 | Lung          | humanLungDost             |               | 5; ED11                  | 32891189 |
-| HeadandNeck_C | humanHead-and-Neck        |               | 5                        | 34921143 |
-| HeadandNeck_K | humanHead-and-Neck_K      |               | 5                        | 32686767 |
-| Ovarian       | humanOvarianQ             |               | 5                        | 35196078 |
-| Hematologic(MM) | humanHematologic_L      |               |                          | 33963182 |
-| Hematologic(ALL)| humanHematologic        |               |                          | 32415257 |
-| Colon Injury  | regen_humanIntestine      | revSSR, revSC | 5                        | 37162959 | 
+| Lung          | pdxLung                   |               | 5; ED11                  | This Study |
+| Ovarian       | humanOvarianQ             |               | 5                       | 35196078 |
 | **Pan Cancer** |                          |               |                          |          |
-| Yanai         |                           | Stress        | ED18a                    | 35931863 |
+| Yanai         |                           | Stress        | 5                        | 35931863 |
 
