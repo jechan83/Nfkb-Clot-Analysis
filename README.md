@@ -13,6 +13,8 @@ _screen.conda.yml_ - Conda package list used to analyze the lentiviral screen. D
 
 _samtools.conda.yml_ - Conda package list used to analyze the degenerate barcodes.
 
+**_Lentiviral\_Screen_** - Contains the Jupyter notebooks to process the lentiviral screen data.
+
 **_Marjanovic\_et\_al\_2020_** - Contains the Jupyter notebook to process the data from Marjanovic*, Hofree*, Chan* et al., Cancer Cell 2020, previously analyzed from GSE277777. A prerequisite to classify the cell states required to generate the figures in the paper. 
 
 **_control_** - Contains the Jupyter notebooks to process _KPfrt Slc4a11<sup>MCD/+</sup> Rosa26<sup>GGCB/+</sup>_ control tumors.  
