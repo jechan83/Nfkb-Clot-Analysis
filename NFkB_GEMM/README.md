@@ -1,4 +1,4 @@
-# HPCS_LUAD
+# Nfkb-Clot-Analysis
 Code base for analysis of NF-kB and receptor pathways the LUAD study by Krause*, Chan* et. al. 
 
 _Requirements_: SCANPY, AnnData, Scipy

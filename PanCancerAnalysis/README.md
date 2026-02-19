@@ -12,7 +12,7 @@ Each dataset was downloaded individually then quality control and analysis was d
 
 The information was aggregated and compared in the `panCancerFigures.ipynb` file to generate the figures.
 
-We used the `panCancerEnv.yml` to create a conda environment to run the files below.
+We used the `panCancerEnv.conda.yml` to create a conda environment to run the files below.
 
 This Directory generates data for:
 - **Figure 5**
@@ -29,21 +29,24 @@ This Directory generates data for:
 | Prostate      | mouseProstate             | Plasticity    | 5a                       | 35981096 |
 | Pancreas_T    | mousePancreas             | Basal         | 5a                       | 35952360 |
 | Pancreas_B    | mousePancreasB            |               | 5a                       | 33536616 | 
-| Lung          | makeLuadAdata             | HPCS          | 5a; ED11d,e,f            | 32707077 |
-| Lung          | mouseLung                 | DATP          | 5e; ED11d,e,f            | 32750316 |
-| Lung          | mouseLung                 | ADI           | 5e; ED11d,e,f            | 32678092 |
-| Lung          | mouseLung                 | PATS          | 5e; ED11d,e,f            | 32661339 |
+| Lung          | makeLuadAdata             | HPCS          | ED11                     | 32707077 |
+| Lung          | mouseLung                 | DATP          | ED11                     | 32750316 |
+| Lung          | mouseLung                 | ADI           | ED11                     | 32678092 |
+| Lung          | mouseLung                 | PATS          | ED11                     | 32661339 |
 |               |                           |               |                          |          |
 | **Human**     |                           |               |                          |          |
-| Colon         | humanColorectalPelka2021  |               | 5a                       | 34450029 |
-| Skin          | humanSkinJi2020           |               | 5a                       | 32579974 |
-| Prostate      | humanProstateDong2020     |               | 5a                       | 33328604 |
-| Pancreas      | humanPancreasSteele2020   |               | 5a                       | 34296197 |
-| Lung          | humanLungMDA              | KAC           | 5a; ED11d,e,f            | 38418883 |
-| Lung          | humanLungKim              |               | 5a; ED11d,e,f            | 32385277 |
-| Lung          | humanLungBischoff         |               | 5a; ED11d,e,f            | 34663877 |
-| Lung          | humanLungDost             |               | 5a; ED11d,e,f            | 32891189 |
-| Ovarian       | humanOvarianQ             |               | 5a                       | 35196078 |
+| Colon         | humanColorectalPelka2021  |               | 5                        | 34450029 |
+| Skin          | humanSkinJi2020           |               | 5                        | 32579974 |
+| Prostate      | humanProstateDong2020     |               | 5                        | 33328604 |
+| Pancreas      | humanPancreasSteele2020   |               | 5                        | 34296197 |
+| Lung          | humanLungMDA              | KAC           | 5; ED11                  | 38418883 |
+| Lung          | humanLungKim              |               | 5; ED11                  | 32385277 |
+| Lung          | humanLungBischoff         |               | 5; ED11                  | 34663877 |
+| Lung          | humanLungDost             |               | 5; ED11                  | 32891189 |
+| Lung          | pdxLung                   |               | 5; ED11                  | This Study |
+| Ovarian       | humanOvarianQ             |               | 5                       | 35196078 |
+| **Pan Cancer** |                          |               |                          |          |
+| Yanai         |                           | Stress        | 5                        | 35931863 |
 
 
 

@@ -1,5 +1,5 @@
 # HPCS_LUAD - Marjanovic*, Hofree*, Chan*, et al. Cancer Cell 2020
-Part of the code base for analysis of the high-plasticity cell state in lung adenocarcinoma study by Chan*, Pan* et. al. 
+Modified code base for analysis of the high-plasticity cell state in lung adenocarcinoma from the study by Chan*, Pan* et. al. Nature 2026.
 
 ## Processing of SmartSeq2 data from Marjanovic*, Hofree*, and Chan* et. al., Cancer Cell 2020 to generate a logistic regression model for cell state classification. 
 
